@@ -49,7 +49,7 @@ For those of you intersted in exploring Natural Language Processing the course m
 * type "passwd" into the shell
 * enter the current password (instance_id) and the new password twice, hitting the enter key after each entry.
 
-1. Begin using tensorflow-related tooling in R to make use of the GPU
+1. Begin using tensorflow-related tooling in R to make use of the GPU: The following is recommended but may not work. Try to clone our project in the next step:
 * library(tensorflow)
 * sess = tf$Session()
 * Accept the option to insall Anaconda
