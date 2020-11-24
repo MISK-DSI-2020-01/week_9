@@ -41,6 +41,20 @@ For those of you intersted in exploring Natural Language Processing the course m
 
 1. To log into your account, use the username `rstudio-user` and your instance id as the password. Your instance id will look something like this: `i-11f111c11bcaf4111`.
 
-1. Follow the instructions in the usage instruction to check that tensorflow is installed and working. 
+1. Follow the instructions in the usage instruction to check that tensorflow is installed and working:
+
+1. Once logged in, please set a new password for this user:
+* Click the "Tools" menu dropdown
+* select "shell"
+* type "passwd" into the shell
+* enter the current password (instance_id) and the new password twice, hitting the enter key after each entry.
+
+1. Begin using tensorflow-related tooling in R to make use of the GPU
+* library(tensorflow)
+* sess = tf$Session()
+* Accept the option to insall Anaconda
+* run `install_tensoflor(version = "gpu")`
+* hello <- tf$constant('Hello, TensorFlow!')
+* sess$run(hello)
 
 1. Set up a new project from GitHub and clone the repo for the DL material: `https://github.com/misk-data-science/misk-dl`.
